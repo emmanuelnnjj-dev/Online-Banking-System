@@ -39,4 +39,5 @@ function get_receiversheet(accno)
 {
 	receiver_file=excel.Workbooks.Open(base_path+accno+".xls");
 	receiver_trans_sheet=excel.Worksheets("Sheet1");
+
 }
